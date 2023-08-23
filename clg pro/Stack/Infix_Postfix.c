@@ -95,6 +95,6 @@ int main()
     // postfix[j] = '/0';
     postfix[j] = '\0';
     printf("the postfix: = %s", postfix);
-    getc();
+    getch();
     return 0;
 }
