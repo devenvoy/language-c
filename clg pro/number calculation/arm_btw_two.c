@@ -36,4 +36,5 @@ void main()
         count = 0;
     }
     getch();
+    return 0;
 }

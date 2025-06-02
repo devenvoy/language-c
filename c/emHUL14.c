@@ -11,10 +11,11 @@
 *****************************************************************************/
 #include "stdio.h"
 #include "conio.h"
-void main()
+#include "devuts.h"
+int main()
 {
 	int a, c, h, k, j;
-	//   clrscr();
+	clrscr();
 	a = 2;
 	while (a <= 20) // even
 	{
@@ -73,7 +74,7 @@ void main()
 	printf("%d ", h);
 	printf("%d ", k);
 	while (j <= 34) // FIBONACCI SERIES
-	
+
 	{
 		j = h + k;
 		printf("%d ", j);

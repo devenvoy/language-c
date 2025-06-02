@@ -9,58 +9,59 @@
 		 7.>>  1,0,1,0,1,..........(20 time)
 		 8.>>  1,1,2,3,5,8,13,....55
 *****************************************************************************/
-# include "stdio.h"
-# include "conio.h"
-void main()
+#include "stdio.h"
+#include "conio.h"
+#include "devuts.h"
+int main()
 {
-   int a,c,h,k,j;
-   clrscr();
-   for(a=2;a<=20;a=a+2)
+	int a, c, h, k, j;
+	clrscr();
+	for (a = 2; a <= 20; a = a + 2)
 	{
-	printf("%d ",a);
+		printf("%d ", a);
 	}
-  printf("\n\n");
-  for(a=1;a<=19;a=a+2)
+	printf("\n\n");
+	for (a = 1; a <= 19; a = a + 2)
 	{
-	printf("%d ",a);
+		printf("%d ", a);
 	}
-  printf("\n\n");
-  for(a=19;a>=1;a=a-2)
+	printf("\n\n");
+	for (a = 19; a >= 1; a = a - 2)
 	{
-	printf("%d ",a);
+		printf("%d ", a);
 	}
-  printf("\n\n");
-  for(a=20;a>=2;a=a-2)
+	printf("\n\n");
+	for (a = 20; a >= 2; a = a - 2)
 	{
-	printf("%d ",a);
+		printf("%d ", a);
 	}
-  printf("\n\n");
-   for(a=1;a<=10;a=a+1)
+	printf("\n\n");
+	for (a = 1; a <= 10; a = a + 1)
 	{
-	printf("%d ",a);
+		printf("%d ", a);
 	}
-  printf("\n\n");
-  for(a=10;a>=1;a=a-1)
+	printf("\n\n");
+	for (a = 10; a >= 1; a = a - 1)
 	{
-	printf("%d ",a);
+		printf("%d ", a);
 	}
-  printf("\n\n");
-  for(a=1;a<=10;a=a+1)
+	printf("\n\n");
+	for (a = 1; a <= 10; a = a + 1)
 	{
-	c=1;
-	printf("%d ",c);
-	c=c-1;
-	printf("%d ",c);
+		c = 1;
+		printf("%d ", c);
+		c = c - 1;
+		printf("%d ", c);
 	}
-  printf("\n\n");
-  h=1;
-  k=1;
-  printf("%d ",k);
-  for(j=1;j<=55;j=h+k)
-    {
-     printf("%d ",j);
-     k=h;
-     h=j;
-    }
-  getch();
- }
+	printf("\n\n");
+	h = 1;
+	k = 1;
+	printf("%d ", k);
+	for (j = 1; j <= 55; j = h + k)
+	{
+		printf("%d ", j);
+		k = h;
+		h = j;
+	}
+	getch();
+}

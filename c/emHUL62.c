@@ -1,30 +1,29 @@
 /*****************************************************************************
      Prog.15  Write a program to print following output.
-	      1 2 3 4 5
-	      1 2 3 4
-	      1 2 3
-	      1 2
-	      1
+        1 2 3 4 5
+        1 2 3 4
+        1 2 3
+        1 2
+        1
 *****************************************************************************/
-# include "stdio.h"
-# include "conio.h"
-void main()
+#include "stdio.h"
+#include "conio.h"
+#include "devuts.h"
+int main()
 {
- int a,b;
- clrscr();
- a=5;
- do
-   {
-   b=1;
-   do
-     {
-      printf(" %d ",b);
+  int a, b;
+  clrscr();
+  a = 5;
+  do
+  {
+    b = 1;
+    do
+    {
+      printf(" %d ", b);
       b++;
-      }
-      while(b<=a);
+    } while (b <= a);
     a--;
     printf("\n\n");
-    }
-    while(a>=1);
+  } while (a >= 1);
   getch();
- }
+}

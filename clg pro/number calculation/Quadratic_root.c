@@ -31,4 +31,5 @@ void main()
         printf(" ROOT 2 = %.2f + %.2f \n", real, image);
     }
     getch();
+    return 0;
 }

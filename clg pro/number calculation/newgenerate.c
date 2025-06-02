@@ -14,14 +14,15 @@ void main()
         reverse = reverse * 10 + remainder;
         number = number / 10;
     }
-     printf(" The New generated number is %d", reverse);
+    printf(" The New generated number is %d", reverse);
     while (reverse != 0)
     {
-        remainder = reverse % 10 ;
+        remainder = reverse % 10;
         new_generated = new_generated * 10 + remainder;
         reverse = reverse / 10;
     }
     printf(" The New generated number is %d", new_generated);
-   
+
     getch();
+    return 0;
 }

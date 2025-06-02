@@ -20,4 +20,5 @@ void main()
     printf("The Sum of First And Last digit of the %d : %d", original, sum);
 
     getch();
+    return 0;
 }

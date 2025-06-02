@@ -26,4 +26,5 @@ void main()
         printf("\nName : %s", s[i].name);
     }
     getch();
+    return 0;
 }

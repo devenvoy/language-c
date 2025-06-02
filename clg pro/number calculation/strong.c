@@ -11,20 +11,20 @@ void main()
     original = number;
     while (number != 0)
     {
-        remainder = number % 10; // last value 
+        remainder = number % 10; // last value
         for (int i = 1; i <= remainder; i++)
 
         {
 
             fact = fact * i; // calculate factorial
         }
-        sum = sum + fact; // add factorial value of last digit
-        number = number / 10; // remove last digit 
-        fact = 1; // change again fact to 1;
+        sum = sum + fact;     // add factorial value of last digit
+        number = number / 10; // remove last digit
+        fact = 1;             // change again fact to 1;
     }
     if (original == sum) // both same then strong
     {
-        printf(" %d is Strong Number ",original);
+        printf(" %d is Strong Number ", original);
     }
     else
     {
@@ -32,4 +32,5 @@ void main()
     }
 
     getch();
+    return 0;
 }

@@ -35,4 +35,5 @@ void main()
    printf("\n\t Total amount is =%f", t);
 
    getch();
+   return 0;
 }
