@@ -15,4 +15,5 @@ int main()
     a = a + 2;
   } while (a <= 20);
   getch();
+  return 0;
 }

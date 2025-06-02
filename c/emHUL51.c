@@ -19,4 +19,5 @@ int main()
   } while (y >= 1);
   printf("\n Power is %d", p);
   getch();
+  return 0;
 }

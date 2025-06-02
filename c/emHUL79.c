@@ -22,4 +22,5 @@ int main()
     i--;
   }
   getch();
+  return 0;
 }

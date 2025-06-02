@@ -12,10 +12,11 @@ int main()
   b = 0;
   while (a <= 10)
   {
-    printf("%d+", a);
+    printf("%d + ", a);
     b = b + a;
     a = a + 1;
   }
-  printf("\n Sum of Natural Nos.: %d", b);
+  printf("\nSum of Natural Nos.: %d", b);
   getch();
+  return 0;
 }

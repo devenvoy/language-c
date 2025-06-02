@@ -11,9 +11,10 @@ int main()
   b = 0;
   for (a = 1; a <= 10; a = a + 1)
   {
-    printf("%d+", a);
+    printf("%d + ", a);
     b = b + a;
   }
   printf("\n Sum of Natural Nos.: %d", b);
   getch();
+  return 0;
 }

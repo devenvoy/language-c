@@ -33,4 +33,5 @@ int main()
   printf("\nNagetive Value: %d", n);
   printf("\nZero Value: %d", z);
   getch();
+  return 0;
 }

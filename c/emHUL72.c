@@ -27,4 +27,5 @@ int main()
     printf("\n %f", c);
   }
   getch();
+  return 0;
 }

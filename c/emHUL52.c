@@ -18,4 +18,5 @@ int main()
   } while (a <= 20);
   printf("\n Sum of Even Nos.: %d", b);
   getch();
+  return 0;
 }

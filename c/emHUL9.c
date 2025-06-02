@@ -22,9 +22,9 @@ int main()
    printf("\nEnter Sub.3 Marks:");
    scanf("%d", &c);
    t = a + b + c;
-   printf("\n Total Marks = %d", t);
-   p = float(t) / 300 * 100;
-   printf("\n Percentage is %f %", p);
+   printf("\nTotal Marks = %d", t);
+   p = (t / 300.0) * 100;
+    printf("\nPercentage = %.2f%%\n", p);
 
    if (p >= 70)
    {

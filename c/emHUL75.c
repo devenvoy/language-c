@@ -22,4 +22,5 @@ void main()
   }
   printf("\n Length is %d", l);
   getch();
+  return 0;
 }

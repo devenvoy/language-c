@@ -81,4 +81,5 @@ int main()
     h = j;
   } while (j <= 34);
   getch();
+  return 0;
 }

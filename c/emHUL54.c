@@ -18,4 +18,5 @@ int main()
   } while (a <= 10);
   printf("\n Sum of Natural Nos.: %d", b);
   getch();
+  return 0;
 }

@@ -20,4 +20,5 @@ int main()
     printf("\n %d", c);
   }
   getch();
+  return 0;
 }

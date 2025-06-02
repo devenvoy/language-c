@@ -32,4 +32,5 @@ void main()
   printf("\n No. Of Digits Are:  %d", d);
   printf("\n No. Of Centensies Are:  %d", c);
   getch();
+  return 0;
 }

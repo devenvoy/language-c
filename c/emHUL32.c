@@ -63,5 +63,6 @@ int main()
 		k = h;
 		h = j;
 	}
-	getch();
+  getch();
+  return 0;
 }

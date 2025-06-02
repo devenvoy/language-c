@@ -13,4 +13,5 @@ int main()
     printf(" %d ", a);
   }
   getch();
+  return 0;
 }

@@ -14,8 +14,8 @@ int main()
     c = sum(a, b);
     printf("\nSum is %d", c);
     getch();
+  return 0;
 }
-
 int sum(int p, int q)
 {
     int x;

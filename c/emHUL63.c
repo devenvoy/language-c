@@ -26,4 +26,5 @@ int main()
     printf("\n\n");
   } while (a >= 1);
   getch();
+  return 0;
 }

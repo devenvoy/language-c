@@ -1,20 +1,20 @@
 /****************************************************************************
-             y
-    Prog.4  Write a program to calculate  X .
+    Prog.4  Write a program to calculate  X ^ Y
 *****************************************************************************/
 #include "stdio.h"
 #include "conio.h"
 #include "devuts.h"
 int main()
 {
-  int x, y, p;
+  int x, y, p =1, i;
   clrscr();
-  printf("\nEnter Value of X & Y :");
+  printf("Enter value of X (base) and Y (exponent): ");
   scanf("%d%d", &x, &y);
-  for (p = 1; y >= 1; y--)
+  for (i = 1; i <= y; i++)
   {
     p = p * x;
   }
   printf("\n Power is %d", p);
   getch();
+  return 0;
 }

@@ -34,4 +34,5 @@ int main()
   printf("\nNo of Even Nos.: %d", e);
   printf("\nNo of Zero Nos: %d", z);
   getch();
+  return 0;
 }

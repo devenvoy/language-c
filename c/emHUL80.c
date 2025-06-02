@@ -39,4 +39,5 @@ void main()
     printf("\n NOT PALINDROM ");
   }
   getch();
+  return 0;
 }

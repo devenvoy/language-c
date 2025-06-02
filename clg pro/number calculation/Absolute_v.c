@@ -19,4 +19,5 @@ void main()
   }
   printf("\n The Absolute Value |%d| = %d", a, v);
   getch();
+  return 0;
 }

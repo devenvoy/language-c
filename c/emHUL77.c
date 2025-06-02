@@ -22,4 +22,5 @@ int main()
   }
   printf("\n No. of  a :  %d", w);
   getch();
+  return 0;
 }

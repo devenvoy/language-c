@@ -18,4 +18,5 @@ int main()
   } while (a <= 19);
   printf("\n Sum of Odd Nos.: %d", b);
   getch();
+  return 0;
 }

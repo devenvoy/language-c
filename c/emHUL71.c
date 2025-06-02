@@ -19,4 +19,5 @@ int main()
    printf("\nTotal : %d", t);
    printf("\nEaverage: %f", p);
    getch();
+  return 0;
 }

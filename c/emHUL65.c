@@ -28,4 +28,5 @@ int main()
     printf("\n\n");
   } while (a <= 5);
   getch();
+  return 0;
 }

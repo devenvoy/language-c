@@ -3,14 +3,15 @@
 *****************************************************************************/
 #include "stdio.h"
 #include "conio.h"
-void main()
+#include "devuts.h"
+int main()
 {
-   int a, b, c;
-   // clrscr();
-   printf("\nEnter Any Two Nos.:");
-   scanf("%d%d", &a, &b);
-   c = a + b;
-   printf("\n Sum is %d", c);
-   getch();
-   return 0;
+      int a, b, c;
+      clrscr();
+      printf("\nEnter Any Two Nos.:");
+      scanf("%d%d", &a, &b);
+      c = a + b;
+      printf("\n Sum is %d", c);
+      getch();
+      return 0;
 }

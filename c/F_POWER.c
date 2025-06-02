@@ -19,4 +19,5 @@ int main()
   }
   printf("\n Power is %d", p);
   getch();
+  return 0;
 }
