@@ -2,7 +2,7 @@
        Prog.6  Write a program to chake whether given No. Odd and Even.
 ***************************************************************************/
 #include "stdio.h"
-#include "conio.h"
+
 #include "devuts.h"
 int main()
 {
@@ -19,6 +19,6 @@ int main()
   {
     printf("\n No. is Odd");
   }
-  getch();
+  getchar();
   return 0;
 }

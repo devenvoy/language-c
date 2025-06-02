@@ -40,6 +40,6 @@ for(i=1;i<=n; i++)
     printf("\n");
  }
 
-getch();
+getchar();
 }
  

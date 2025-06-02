@@ -6,7 +6,7 @@
             <15000  12%
 ****************************************************************************/
 #include "stdio.h"
-#include "conio.h"
+
 void main()
 {
    int a;
@@ -34,6 +34,6 @@ void main()
    t = a + bon;
    printf("\n\t Total amount is =%f", t);
 
-   getch();
+   getchar();
    return 0;
 }

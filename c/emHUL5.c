@@ -3,7 +3,7 @@
        the user choice.
 *****************************************************************************/
 #include "stdio.h"
-#include "conio.h"
+
 #include "devuts.h"
 int main()
 {
@@ -33,6 +33,6 @@ int main()
       printf("\n Invalid Choice");
       break;
    }
-   getch();
+   getchar();
    return 0;
 }

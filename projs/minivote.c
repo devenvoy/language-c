@@ -17,7 +17,7 @@ int main(){
                 return 0;
             default:
                 printf("\nInvalid option");
-                getch();
+                getchar();
         }
     }
     return 0;

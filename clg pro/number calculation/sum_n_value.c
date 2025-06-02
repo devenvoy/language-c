@@ -18,6 +18,6 @@ void main()
     }
     printf(" sum of all numbers is %d." ,sum);
 
-    getch();
+    getchar();
 
 }

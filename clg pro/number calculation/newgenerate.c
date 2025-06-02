@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <conio.h>
+
 void main()
 {
 
@@ -23,6 +23,6 @@ void main()
     }
     printf(" The New generated number is %d", new_generated);
 
-    getch();
+    getchar();
     return 0;
 }

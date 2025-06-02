@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <conio.h>
+
 
 int prime(int);
 int prime2(int);

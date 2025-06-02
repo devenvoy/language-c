@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #include "devuts.h"
 
 int main()
@@ -38,5 +37,6 @@ int main()
 		printf("a is non-zero and b is zero\n");
 	}
 
-	getch();
+	getchar();
+	return 0;
 }

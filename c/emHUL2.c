@@ -3,7 +3,6 @@
        given Salary.
 *****************************************************************************/
 #include "stdio.h"
-#include "conio.h"
 #include "devuts.h"
 int main()
 {
@@ -17,6 +16,6 @@ int main()
     bon = sal * .15;
   }
   printf("\nBonus is %f", bon);
-  getch();
+  getchar();
   return 0;
 }

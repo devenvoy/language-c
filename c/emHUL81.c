@@ -88,5 +88,5 @@ void main()
     }
   }
  printf (" STRING IS:\n        %s ",&a[0]);
- getch();
+ getchar();
 }

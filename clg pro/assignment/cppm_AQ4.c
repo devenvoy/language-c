@@ -16,7 +16,7 @@ void main()
    else
       printf("\n\n\t\t\t NO ... %d  is not LEEP YEAR ..... ", year);
  
-   getch();
+   getchar();
  
  //  return 0;
 }

@@ -2,7 +2,7 @@
 WRITE A PROGRAM TO DISPLAY CHARACTER FROM A TO Z USING LOOP
 */
 #include <stdio.h>
-#include <conio.h>
+
 
 int main()
 {
@@ -15,6 +15,6 @@ int main()
         printf("%c ", i);
     }
 
-    //getch();
+    //getchar();
      return 0 ;
 }

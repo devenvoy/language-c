@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <conio.h>
+
 #include <math.h>
 
 void main()
@@ -35,6 +35,6 @@ void main()
         sum = 0;
         count = 0;
     }
-    getch();
+    getchar();
     return 0;
 }

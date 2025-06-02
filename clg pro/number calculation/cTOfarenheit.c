@@ -2,7 +2,7 @@
 // convert temprature   farenheit to celcius
 // formula f=(c*(9/5))+32
 #include <stdio.h>
-#include <conio.h>
+
 int main()
 {
     float cel, far;

@@ -2,7 +2,7 @@
       Prog.7  Write a program to find Bigger number from given two Nos..
 *****************************************************************************/
 #include "stdio.h"
-#include "conio.h"
+
 #include "devuts.h"
 int main()
 {
@@ -18,6 +18,6 @@ int main()
   {
     printf("\n Bigger No. is %d", b);
   }
-  getch();
+  getchar();
   return 0;
 }

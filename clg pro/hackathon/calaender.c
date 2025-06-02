@@ -123,7 +123,7 @@ int main()
         break;
 
     }
-    getch();
+    getchar();
     return 0;
 }
 
@@ -210,11 +210,11 @@ void display(int nyr,int nmonth,int tdays,int days[])
 int getkey()
 {
     int ch;
-    ch=getch();
+    ch=getchar();
      if(ch==0)
     {
         printf("zero");
-        ch=getch();
+        ch=getchar();
 
         return ch;
     }

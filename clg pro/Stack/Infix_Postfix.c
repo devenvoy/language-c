@@ -1,6 +1,6 @@
 #include <string.h>
 #include <stdio.h>
-#include <conio.h>
+
 
 char Exp[10];
 int top = -1;
@@ -95,6 +95,6 @@ int main()
     // postfix[j] = '/0';
     postfix[j] = '\0';
     printf("the postfix: = %s", postfix);
-    getch();
+    getchar();
     return 0;
 }

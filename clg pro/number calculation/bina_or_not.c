@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <conio.h>
+
 
 void main()
 {
@@ -33,6 +33,6 @@ void main()
         printf(" %d  is NOT in BINARY number format", ori);
     }
 
-    getch();
+    getchar();
     // return 0 ;
 }

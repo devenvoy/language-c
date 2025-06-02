@@ -2,7 +2,7 @@
 	   Prog.11  Write a program to calculate Sum of any to Nos..
 *****************************************************************************/
 # include "stdio.h"
-# include "conio.h"
+
 int a,b;
 void main()
 {
@@ -10,7 +10,7 @@ void main()
  clrscr();
  printf ("Enter Two Nos.");
  scan();
- getch();
+ getchar();
  }
 
  void scan()

@@ -2,7 +2,7 @@
      Prog.3  Write a program to find No. of " a " is givem string.
 *****************************************************************************/
 #include "stdio.h"
-#include "conio.h"
+
 #include "devuts.h"
 int main()
 {
@@ -21,6 +21,6 @@ int main()
     i++;
   }
   printf("\n No. of  a :  %d", w);
-  getch();
+  getchar();
   return 0;
 }

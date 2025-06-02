@@ -12,7 +12,10 @@
     "cppm_AQ8.C": "cpp",
     "conio.h": "c",
     "devuts.h": "c",
-    "stdio.h": "c"
+    "stdio.h": "c",
+    "fiG6.C": "cpp",
+    "cppm_AQ20.C": "cpp",
+    "fiG5.C": "cpp"
   },
   "chatgpt.gpt3.apiKey": "",
   "chatgpt.gpt3.organization": "",

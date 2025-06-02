@@ -31,5 +31,5 @@ void main()
 		  printf("\n Bigger no is %d",c);
 	    }
 	}
-	getch();
+	getchar();
 }

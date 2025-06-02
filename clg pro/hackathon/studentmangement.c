@@ -74,7 +74,7 @@ int main()
 	gotoxy(65,11);
 	while( k<10)
 	{
-	    pas[k]=getch();
+	    pas[k]=getchar();
 	    char s=pas[k];
 	    if(s==13)
 		 break;
@@ -100,7 +100,7 @@ int main()
 		printf("\n\n\t\t\t\t\t     *                    *");
 		printf("\n\n\t\t\t\t\t     *  *  *  *  *  *  *  *");
 		printf("\n\n\n\n\n\t\t\t\t\tPress any key to continue...... ");
-		getch();
+		getchar();
 
     title();
     printf("\n\n\t\t\t\tLab Final Spring 2017");
@@ -108,7 +108,7 @@ int main()
     printf("\n\n\t\t\t  Daffodil International University\n\t\t\t");
     printChar('=',38);
     printf("\n\n\n\t\t\t       press any key to Enter");
-    getch();
+    getchar();
 
     while(1)
     {
@@ -155,7 +155,7 @@ int main()
             default:
                 printf("\n\t\tNo Action Detected");
                 printf("\n\t\tPress Any Key\n\n\n");
-                getch();
+                getchar();
                 system("pause");
         }
     }
@@ -163,7 +163,7 @@ int main()
     else
     {
         printf("Wrong Password . Get Out");
-        getch();
+        getchar();
     }
     return 1;
 
@@ -190,7 +190,7 @@ void password()
 	{
 		printf("Password not saved :\n");
 		printf("Press any key to continue >>>");
-		getch();
+		getchar();
 	}
 }
 

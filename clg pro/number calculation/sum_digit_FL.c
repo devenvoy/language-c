@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <conio.h>
+
 
 void main()
 
@@ -19,6 +19,6 @@ void main()
     sum = first + last;
     printf("The Sum of First And Last digit of the %d : %d", original, sum);
 
-    getch();
+    getchar();
     return 0;
 }

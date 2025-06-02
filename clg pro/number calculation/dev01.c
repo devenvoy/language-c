@@ -10,6 +10,6 @@ int main()
 	printf("value of age is %d \n", age  );
 	printf("value of pi is %f \n", pi  );
 	printf("sign of percentage is '%c' \n", percentage  );
-	getch();
+	getchar();
 	return 0;
 	}

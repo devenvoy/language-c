@@ -3,7 +3,7 @@
        elements and print all.
 ******************************************************************************/
 #include "stdio.h"
-#include "conio.h"
+
 void main()
 {
   int a[10], i;
@@ -18,6 +18,6 @@ void main()
   {
     printf("\n %d", a[i]);
   }
-  getch();
+  getchar();
   return 0;
 }

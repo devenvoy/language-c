@@ -26,7 +26,7 @@ void main()
         printf("\n");
     }
 
-    getch();
+    getchar();
     
  //   return 0;
 }

@@ -72,6 +72,6 @@ int main(void)
         printf("%d ", arr3[in]);
     }
 
-    getch();
+    getchar();
     return 0;
 }

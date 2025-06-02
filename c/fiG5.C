@@ -24,6 +24,6 @@ void main()
 		printf ("\n No is Negetive");
 	}
  }
- getch();
+ getchar();
 }
 

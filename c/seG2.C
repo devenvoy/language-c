@@ -16,5 +16,5 @@ void main()
 	printf("\n\t----------------------");
 	printf("\n\t Bonus is %5.2f",bon);
 	printf("\n\t----------------------");
-	getch();
+	getchar();
 }

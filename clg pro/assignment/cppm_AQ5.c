@@ -20,6 +20,6 @@ void main()
     }
     printf("The Fac(%d) = %d", n, factorial);
 
-    getch();
+    getchar();
     // return 0;
 }

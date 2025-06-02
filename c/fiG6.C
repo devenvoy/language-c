@@ -2,7 +2,7 @@
  Pro.6 The Write a Program to calculate + | - | * | / as for the user choise
 *****************************************************************************/
 #include "stdio.h"
-#include "conio.h"
+
 void main()
 {
 	int a,b,ch;
@@ -27,5 +27,5 @@ void main()
 	default:printf("\n Invalid Choice");
 		break;
 	}
-	getch();
+	getchar();
 }

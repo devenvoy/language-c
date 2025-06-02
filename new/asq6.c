@@ -1,6 +1,6 @@
 // Write a C Program to find Sum of Series 1²+2²+3²+…..+n² Using Recursion.
 #include <stdio.h>
-#include <conio.h>
+
 int sumos(int n)
 {
     int sum = 0;

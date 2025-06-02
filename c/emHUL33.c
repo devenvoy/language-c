@@ -2,7 +2,7 @@
     Prog.4  Write a program to calculate  X ^ Y
 *****************************************************************************/
 #include "stdio.h"
-#include "conio.h"
+
 #include "devuts.h"
 int main()
 {
@@ -15,6 +15,6 @@ int main()
     p = p * x;
   }
   printf("\n Power is %d", p);
-  getch();
+  getchar();
   return 0;
 }

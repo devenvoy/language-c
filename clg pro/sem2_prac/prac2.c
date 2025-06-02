@@ -6,7 +6,7 @@ Read the value of N number StudentData and Display them,
 */
 
 #include <stdio.h>
-#include <conio.h>
+
 
 struct student
 {
@@ -45,6 +45,6 @@ void main()
             printf("\nstudents score:%d", s[i].marks);
         }
     }
-    getch();
+    getchar();
     return 0;
 }

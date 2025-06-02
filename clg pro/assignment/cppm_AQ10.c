@@ -20,6 +20,6 @@ void main()
         n = n / 10;
     }
 
-    getch();
+    getchar();
   //  return 0;
 }

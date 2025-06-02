@@ -2,7 +2,7 @@
    Prog.4  Write a program to replace all " a " with " x ".
 *****************************************************************************/
 #include "stdio.h"
-#include "conio.h"
+
 #include "devuts.h"
 int main()
 {
@@ -26,6 +26,6 @@ int main()
     printf("%c", a[i]);
     i++;
   }
-  getch();
+  getchar();
   return 0;
 }

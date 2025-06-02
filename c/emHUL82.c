@@ -2,7 +2,7 @@
        Prog.8  Write a program to calculate Sum of any to Nos..
 *****************************************************************************/
 #include "stdio.h"
-#include "conio.h"
+
 #include "devuts.h"
 int main()
 {
@@ -13,7 +13,7 @@ int main()
     scanf("%d %d", &a, &b);
     c = sum(a, b);
     printf("\nSum is %d", c);
-    getch();
+    getchar();
   return 0;
 }
 int sum(int p, int q)

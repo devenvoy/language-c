@@ -3,7 +3,7 @@
 *****************************************************************************/
 #include "stdio.h"
 #include "devuts.h"
-#include "conio.h"
+
 int main()
 {
       int a, b, c;
@@ -32,6 +32,6 @@ int main()
                   printf("\n Bigger No. is %d", c);
             }
       }
-      getch();
+      getchar();
       return 0;
 }

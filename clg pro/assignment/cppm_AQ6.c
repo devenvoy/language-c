@@ -28,6 +28,6 @@ void main()
         printf(" %d is not Armstrong number", c);
     }
 
-   getch();
+   getchar();
    // return 0;
 }

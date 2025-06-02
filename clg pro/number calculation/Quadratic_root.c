@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <conio.h>
+
 #include <math.h>
 
 void main()
@@ -30,6 +30,6 @@ void main()
         printf(" ROOT 1 = %.2f + %.2f  \n", real, image);
         printf(" ROOT 2 = %.2f + %.2f \n", real, image);
     }
-    getch();
+    getchar();
     return 0;
 }

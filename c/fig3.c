@@ -16,5 +16,5 @@ void main()
 		printf("%15d%13.4f\n",a,y);
 		a=a+10;
 	}
-	getch();
+	getchar();
 }

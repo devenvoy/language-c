@@ -2,7 +2,7 @@
        Prog.10  Write a program to find Absolute value for given value.
 *****************************************************************************/
 #include "stdio.h"
-#include "conio.h"
+
 void main()
 {
   int a, v;
@@ -18,6 +18,6 @@ void main()
     v = a * -1;
   }
   printf("\n The Absolute Value |%d| = %d", a, v);
-  getch();
+  getchar();
   return 0;
 }

@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <conio.h>
+
 #include <windows.h>
 #include <dos.h>
 #include <string.h>
@@ -21,7 +21,7 @@ void gotoxy(int x,int y){
 int main(){
 	system("color B");
 	password();
-	getch();	
+	getchar();	
 }
 
 void namefun(){
@@ -315,7 +315,7 @@ void password(void){
 	char w='*';
 	int i=0;
 	while(ch!=13){
-		ch=getch();
+		ch=getchar();
 		if(ch!=13 && ch!=8){
 			printf("%c",w);
 			pass[i]=ch;
@@ -378,7 +378,7 @@ void menu(){
 		default:
 			system("cls");
 			printf("Invalid Enter.");
-			getch();
+			getchar();
 }
 }
 

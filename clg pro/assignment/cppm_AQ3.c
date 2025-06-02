@@ -32,6 +32,6 @@ void main()
     {
         printf(" %d is not a prime number ", n);
     }
-    getch();
+    getchar();
  //   return 0;
 }

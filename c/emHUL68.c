@@ -3,7 +3,7 @@
        and Zero from an Arrays.
 ******************************************************************************/
 #include "stdio.h"
-#include "conio.h"
+
 #include "devuts.h"
 int main()
 {
@@ -33,6 +33,6 @@ int main()
   printf("\nNo of Odd Nos.: %d", o);
   printf("\nNo of Even Nos.: %d", e);
   printf("\nNo of Zero Nos: %d", z);
-  getch();
+  getchar();
   return 0;
 }

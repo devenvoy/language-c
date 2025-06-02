@@ -187,5 +187,5 @@ void main()
             }
         }
     }
-    // getch();
+    // getchar();
 }

@@ -1,7 +1,7 @@
 /* ASK USERS NAME AND GIVE EM CODE AND ASK  MARKS OF SUBJECT AND GIVE RESULT  */
 
 #include <stdio.h>
-#include <conio.h>
+
 
 int main()
 {
@@ -53,6 +53,6 @@ int main()
             printf("INVALID PERCENTAGE");
     
 
-     //getch();
+     //getchar();
      return 0;
 }

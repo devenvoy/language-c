@@ -2,7 +2,7 @@
      Prog.6  Write a program to calculate Sum of Odd Nos. serige till 19.
 ******************************************************************************/
 #include "stdio.h"
-#include "conio.h"
+
 #include "devuts.h"
 int main()
 {
@@ -15,6 +15,6 @@ int main()
     b = b + a;
   }
   printf("\n Sum of Odd Nos.: %d", b);
-  getch();
+  getchar();
   return 0;
 }

@@ -1,7 +1,7 @@
 /*  WRITE A PROGRAM TO FIND GCD AND LCM OF TWO NUMBER */
 
 #include <stdio.h>
-#include <conio.h>
+
 
 int main()
 {
@@ -34,6 +34,6 @@ int main()
 
     printf("\n LCM = %d", lcm);
 
-    //getch();
+    //getchar();
     return 0;
 }

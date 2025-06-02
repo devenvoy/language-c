@@ -2,7 +2,7 @@
    Prog.6  Write a program to find out Total,Eaverage of an Arrays elements.
 ******************************************************************************/
 #include "stdio.h"
-#include "conio.h"
+
 #include "devuts.h"
 int main()
 {
@@ -18,6 +18,6 @@ int main()
    p = (float)t / 10;
    printf("\nTotal : %d", t);
    printf("\nEaverage: %f", p);
-   getch();
+   getchar();
   return 0;
 }

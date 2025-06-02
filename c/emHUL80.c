@@ -3,7 +3,7 @@
       NOT PALINDROM.
 ******************************************************************************/
 #include "stdio.h"
-#include "conio.h"
+
 void main()
 {
   char a[30];
@@ -38,6 +38,6 @@ void main()
   {
     printf("\n NOT PALINDROM ");
   }
-  getch();
+  getchar();
   return 0;
 }

@@ -2,7 +2,7 @@
      Prog.4  Write a program to convert all Nagetive Nos into Positive Nos.
 ******************************************************************************/
 #include "stdio.h"
-#include "conio.h"
+
 #include "devuts.h"
 int main()
 {
@@ -21,6 +21,6 @@ int main()
   {
     printf("\n %d", a[i]);
   }
-  getch();
+  getchar();
   return 0;
 }

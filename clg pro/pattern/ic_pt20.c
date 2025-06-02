@@ -20,5 +20,5 @@ void main()
         printf("\n");
         
     }
-getch();
+getchar();
 }

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include <conio.h>
+
 int main()
 {
     char name[5][10], item[10];
@@ -28,6 +28,6 @@ int main()
     {
         printf("\n The searched string does not match any name in the list...");
     }
-    getch();
+    getchar();
     return 0;
 }

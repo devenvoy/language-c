@@ -2,7 +2,7 @@
     Prog.1  Write a program to find length of string.
 *****************************************************************************/
 #include "stdio.h"
-#include "conio.h"
+
 void main()
 {
   char a[30];
@@ -21,6 +21,6 @@ void main()
     }
   }
   printf("\n Length is %d", l);
-  getch();
+  getchar();
   return 0;
 }

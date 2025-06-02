@@ -7,7 +7,7 @@
         1 2 3 4 5
 *****************************************************************************/
 #include "stdio.h"
-#include "conio.h"
+
 #include "devuts.h"
 int main()
 {
@@ -21,6 +21,6 @@ int main()
     }
     printf("\n\n");
   }
-  getch();
+  getchar();
   return 0;
 }

@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <conio.h>
+
 #include <ctype.h>
 void main()
 {
@@ -45,5 +45,5 @@ void main()
         printf("%s = %d \n", a[i], sum);
 
     }
-    // getch();
+    // getchar();
 }

@@ -8,7 +8,7 @@
 	  */
 
 #include <stdio.h>
-#include <conio.h>
+
 void main()
 {
 	int num;
@@ -16,5 +16,5 @@ void main()
 	scanf("%d", &num);
 	(num % 2 == 0) ? printf("EVEN") : printf("ODD");
 
-	getch();
+	getchar();
 }

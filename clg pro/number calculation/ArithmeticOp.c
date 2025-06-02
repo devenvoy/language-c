@@ -1,7 +1,7 @@
 /*Arithmetic operatins    */
 
 #include <stdio.h>
-#include <conio.h>
+
 void main()
 {
 	int a, b, c;
@@ -23,5 +23,5 @@ void main()
 	c = a--;
 	printf("\n subtraction(--) of a and b is :%d", c);
 
-	getch();
+	getchar();
 }

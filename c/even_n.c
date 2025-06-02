@@ -2,7 +2,7 @@
     Prog.1  Write a program to print Even No. series till 20.
 *****************************************************************************/
 #include "stdio.h"
-#include "conio.h"
+
 void main()
 {
   int n, a;
@@ -15,5 +15,5 @@ void main()
     printf("%d ", a);
     a = a + 2;
   }
-  getch();
+  getchar();
 }

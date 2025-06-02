@@ -3,7 +3,7 @@
        and Zero from an Arrays.
 ******************************************************************************/
 #include "stdio.h"
-#include "conio.h"
+
 #include "devuts.h"
 int main()
 {
@@ -32,6 +32,6 @@ int main()
   printf("\nPositive Value: %d", p);
   printf("\nNagetive Value: %d", n);
   printf("\nZero Value: %d", z);
-  getch();
+  getchar();
   return 0;
 }

@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <conio.h>
+
 #include <string.h>
 
 int main()
@@ -20,6 +20,6 @@ int main()
     {
         printf(" String is not a palindrome");
     }
-    // getch();
+    // getchar();
     return 0;
 }

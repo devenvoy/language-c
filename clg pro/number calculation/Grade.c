@@ -1,6 +1,6 @@
 /* write a program to find student grade from the criteria */
 #include <stdio.h>
-#include <conio.h>
+
 int main()
 {
 	float per;

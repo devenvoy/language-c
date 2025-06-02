@@ -2,7 +2,7 @@
      Prog.5  Write a program to calculate Sum of Even Nos. serige till 20.
 ******************************************************************************/
 #include "stdio.h"
-#include "conio.h"
+
 #include "devuts.h"
 int main()
 {
@@ -15,6 +15,6 @@ int main()
     b = b + a;
   }
   printf("\n Sum of Even Nos.: %d", b);
-  getch();
+  getchar();
   return 0;
 }

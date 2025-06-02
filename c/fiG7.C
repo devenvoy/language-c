@@ -18,5 +18,5 @@ void main()
 	{
 		printf("\n No. is Odd");
 	}
-	getch();
+	getchar();
 }

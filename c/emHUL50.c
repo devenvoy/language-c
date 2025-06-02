@@ -10,7 +10,7 @@
      8.>>  1,1,2,3,5,8,13,....55
 *****************************************************************************/
 #include "stdio.h"
-#include "conio.h"
+
 #include "devuts.h"
 int main()
 {
@@ -80,6 +80,6 @@ int main()
     k = h;
     h = j;
   } while (j <= 34);
-  getch();
+  getchar();
   return 0;
 }

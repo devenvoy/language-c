@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <conio.h>
+
 #include <stdlib.h>
 #include <string.h>
 int cnt = 0;
@@ -68,7 +68,7 @@ void add_data()
         scanf("%s",v[cnt].city);
         cnt++;
     }
-    getch();
+    getchar();
     system("cls");
 }
 
@@ -88,7 +88,7 @@ void disp()
             printf(" \n\t\t%3d %3d  %10s", v[i].vid, v[i].vnumber, v[i].city);
         }
     }
-    getch();
+    getchar();
     system("cls");
 }
 

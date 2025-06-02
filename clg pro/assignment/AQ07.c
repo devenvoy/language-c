@@ -46,7 +46,7 @@ void main()
     break;
     }
 
-    getch();
+    getchar();
     
 
 }

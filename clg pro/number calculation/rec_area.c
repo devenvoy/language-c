@@ -1,7 +1,7 @@
 /* area of an rectangle*/
 
 #include <stdio.h>
-#include <conio.h>
+
 int main()
 {
     float a, b, area;

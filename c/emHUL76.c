@@ -3,7 +3,7 @@
       Centensies from a givem string.
 *****************************************************************************/
 #include "stdio.h"
-#include "conio.h"
+
 void main()
 {
   char a[50];
@@ -31,6 +31,6 @@ void main()
   printf("\n No. Of Words Are:  %d", w);
   printf("\n No. Of Digits Are:  %d", d);
   printf("\n No. Of Centensies Are:  %d", c);
-  getch();
+  getchar();
   return 0;
 }

@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <conio.h>
+
 #include <string.h>
 
 void password(void);
@@ -45,7 +45,7 @@ void password(void)
     printf(" \n Password : ");
     while (ch != 13)
     {
-        ch = getch();
+        ch = getchar();
         if (ch != 13 && ch != 8)
         {
             printf("%c", w);

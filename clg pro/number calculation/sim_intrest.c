@@ -5,7 +5,7 @@ r=(100*si)/(p*t)
 t=(100*si)/(p*r)
 total amount = p+si */
 #include <stdio.h>
-#include <conio.h>
+
 int main()
 {
     float si, p, r, t;

@@ -27,5 +27,5 @@ void main()
 //	{
 //		printf("%c",a[j]);
 //	}	
-//	getch();
+//	getchar();
 }

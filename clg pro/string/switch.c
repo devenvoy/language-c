@@ -1,7 +1,7 @@
 /* MEnu Driven program for use appliences with switch ... case  */
 
 #include <stdio.h>
-#include <conio.h>
+
 int main()
 {
     int a;
@@ -32,6 +32,6 @@ int main()
         printf("\n\n\t\t\t\t INVALID CHOICE");
         break;
     }
-    getch();
+    getchar();
     return 0;
 }

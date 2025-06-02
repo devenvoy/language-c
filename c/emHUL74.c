@@ -3,7 +3,7 @@
        Array print.
 ******************************************************************************/
 #include "stdio.h"
-#include "conio.h"
+
 #include "devuts.h"
 int main()
 {
@@ -19,6 +19,6 @@ int main()
     c = c + a[i];
     printf("\n %d", c);
   }
-  getch();
+  getchar();
   return 0;
 }

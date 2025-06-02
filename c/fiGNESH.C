@@ -92,6 +92,6 @@ int main()
 	{
 		printf("\n\t Please Try Again");
 	}
-	getch();
+	getchar();
 }
 

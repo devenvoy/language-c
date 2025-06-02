@@ -3,7 +3,7 @@
        Array. ( Average = average - array)
 ******************************************************************************/
 #include "stdio.h"
-#include "conio.h"
+
 #include "devuts.h"
 int main()
 {
@@ -26,6 +26,6 @@ int main()
     }
     printf("\n %f", c);
   }
-  getch();
+  getchar();
   return 0;
 }

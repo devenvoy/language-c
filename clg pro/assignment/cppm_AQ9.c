@@ -5,7 +5,7 @@ FIBONACCI , INPUT  n = 5;
 
 */
 #include <stdio.h>
-#include <conio.h>
+
 
 void main()
 {
@@ -23,6 +23,6 @@ void main()
         next = a1 + a2;
     }
 
-    getch();
+    getchar();
     // return 0 ;
 }

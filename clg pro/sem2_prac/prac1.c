@@ -1,7 +1,7 @@
 // store information of 5 student using structur and print it
 
 #include <stdio.h>
-#include <conio.h>
+
 
 struct student
 {
@@ -25,6 +25,6 @@ void main()
         printf("\nRoll No. : %d", s[i].rollno);
         printf("\nName : %s", s[i].name);
     }
-    getch();
+    getchar();
     return 0;
 }

@@ -2,7 +2,7 @@
    Prog.7  Write a program to calculate Sum of Natural Nos. serige till 10.
 ******************************************************************************/
 #include "stdio.h"
-#include "conio.h"
+
 #include "devuts.h"
 int main()
 {
@@ -15,6 +15,6 @@ int main()
     b = b + a;
   }
   printf("\n Sum of Natural Nos.: %d", b);
-  getch();
+  getchar();
   return 0;
 }

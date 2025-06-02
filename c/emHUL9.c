@@ -8,7 +8,7 @@
           <35% "FAIL"
 *****************************************************************************/
 #include "stdio.h"
-#include "conio.h"
+
 #include "devuts.h"
 int main()
 {
@@ -46,5 +46,5 @@ int main()
    {
       printf("\n YOU ARE FAIL");
    }
-   getch();
+   getchar();
 }

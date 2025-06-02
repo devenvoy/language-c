@@ -1,6 +1,6 @@
 /* write a program to output difference type of litercy */
 #include <stdio.h>
-#include <conio.h>
+
 void main()
 {
 	char ch = 'Z';
@@ -19,5 +19,5 @@ void main()
 	scanf("%d", &A);
 	printf(" \nDecimal %d to hexadecimal: %x ", A, A);
 
-	getch();
+	getchar();
 }

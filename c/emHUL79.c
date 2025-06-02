@@ -2,7 +2,7 @@
     Prog.5  Write a program to print Reverse string for a given string.
 *****************************************************************************/
 #include "stdio.h"
-#include "conio.h"
+
 #include "devuts.h"
 int main()
 {
@@ -21,6 +21,6 @@ int main()
     printf("%c", a[i]);
     i--;
   }
-  getch();
+  getchar();
   return 0;
 }

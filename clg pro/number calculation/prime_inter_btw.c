@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <conio.h>
+
 #include <math.h>
 
 void main()
@@ -38,6 +38,6 @@ void main()
         low++;
     }
 
-    getch();
+    getchar();
     return 0;
 }

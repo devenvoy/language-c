@@ -17,5 +17,5 @@ void main()
 	{
 		printf("\n Bigger No. is %d",b);
 	}
-	getch();
+	getchar();
 }

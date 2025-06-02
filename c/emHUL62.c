@@ -7,7 +7,7 @@
         1
 *****************************************************************************/
 #include "stdio.h"
-#include "conio.h"
+
 #include "devuts.h"
 int main()
 {
@@ -25,6 +25,6 @@ int main()
     a--;
     printf("\n\n");
   } while (a >= 1);
-  getch();
+  getchar();
   return 0;
 }

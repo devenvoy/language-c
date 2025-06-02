@@ -3,7 +3,7 @@
     Prog.4  Write a program to calculate  X .
 *****************************************************************************/
 #include "stdio.h"
-#include "conio.h"
+
 #include "devuts.h"
 int main()
 {
@@ -18,6 +18,6 @@ int main()
     y--;
   } while (y >= 1);
   printf("\n Power is %d", p);
-  getch();
+  getchar();
   return 0;
 }

@@ -17,5 +17,5 @@ void main()
 		b++;
 		printf("\n");
 	}
-	getch();
+	getchar();
 }

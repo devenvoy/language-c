@@ -1,7 +1,7 @@
 /*Write a program to find a given string from the list of strings.
  */
 #include <stdio.h>
-#include <conio.h>
+
 #include <string.h>
 
 void main()

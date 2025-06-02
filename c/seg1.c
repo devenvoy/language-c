@@ -8,5 +8,5 @@ void main()
 	n=100;
 	a=30.75+75.35;
 	printf("%d %5.2f",n,a);
-	getch();
+	getchar();
 }

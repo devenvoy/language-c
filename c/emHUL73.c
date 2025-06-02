@@ -2,7 +2,7 @@
      Prog.8  Write a program to find out Cummulative total for an Array.
 ******************************************************************************/
 #include "stdio.h"
-#include "conio.h"
+
 #include "devuts.h"
 int main()
 {
@@ -18,6 +18,6 @@ int main()
     c = c + a[i];
     printf("\n %d", c);
   }
-  getch();
+  getchar();
   return 0;
 }

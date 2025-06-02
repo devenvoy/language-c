@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <conio.h>
+
 #include <string.h>
 int strlen_function(char str[]);
 int main()

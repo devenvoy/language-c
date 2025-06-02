@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <conio.h>
+
 
 void main()
 {
@@ -31,6 +31,6 @@ void main()
         printf("%d is Not Strong Number", original);
     }
 
-    getch();
+    getchar();
     return 0;
 }

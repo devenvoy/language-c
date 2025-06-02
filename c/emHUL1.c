@@ -2,7 +2,6 @@
       Prog.1  Write a program to calculate Sum of any two Nos..
 *****************************************************************************/
 #include "stdio.h"
-#include "conio.h"
 #include "devuts.h"
 int main()
 {
@@ -12,6 +11,6 @@ int main()
       scanf("%d%d", &a, &b);
       c = a + b;
       printf("\n Sum is %d", c);
-      getch();
+      getchar();
       return 0;
 }
