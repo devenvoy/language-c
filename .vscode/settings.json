@@ -9,7 +9,9 @@
     "fiGNESH.C": "cpp",
     "cppm_AQ11.C": "cpp",
     "cppm_AQ2.C": "cpp",
-    "cppm_AQ8.C": "cpp"
+    "cppm_AQ8.C": "cpp",
+    "conio.h": "c",
+    "devuts.h": "c"
   },
   "chatgpt.gpt3.apiKey": "",
   "chatgpt.gpt3.organization": "",

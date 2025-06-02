@@ -4,10 +4,11 @@
 *****************************************************************************/
 # include "stdio.h"
 # include "conio.h"
+# include "devuts.h"
  int main()
 {
    int n;
-   //clrscr();
+   clrscr();
    printf("\nEnter Any No.:");
    scanf ("%d",&n);
    if (n == 0)
@@ -26,4 +27,5 @@
      }
    }
    getch();
+   return 0;
 }

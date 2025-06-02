@@ -1,62 +1,42 @@
-// relational opraters
+#include <stdio.h>
+#include <conio.h>
+#include "devuts.h"
 
-#include<stdio.h>
-#include<conio.h>
-int main() {
-	
+int main()
+{
 	char trueresult[] = "true";
 	char falseresult[] = "false";
-	float a;
-	float b;
-	
-	printf("\nEnter Value A :");
-	scanf("%d",&a);
-	
-	printf("\nEnter Value B :");
-	scanf("%d",&a);
-	
-	
+	float a, b;
 	bool ab;
-	
-	 ab = 4==3;
-	
-	if (a==b)
-	printf("%bool",ab);
-	else if (a<b)
-	printf("");
-	else if (a>b)
-	printf("");
-	else if (a<=b)
-	printf("");
-	else if (a>=b)
-	printf("");
-	else if (a== 0 && b==0)
-	printf("");
-	else if (a!=0 && b==0)
-	printf("");
-	else
-	printf("");
-	
+
+	printf("\nEnter Value A: ");
+	scanf("%f", &a);
+	printf("Enter Value B: ");
+	scanf("%f", &b);
+
+	ab = (a == b);
+
+	if (ab)
+	{
+		printf("a is equal to b: %s\n", printBool(ab));
+	}
+	else if (a < b)
+	{
+		printf("a is less than b\n");
+	}
+	else if (a > b)
+	{
+		printf("a is greater than b\n");
+	}
+
+	if (a == 0 && b == 0)
+	{
+		printf("Both a and b are zero\n");
+	}
+	else if (a != 0 && b == 0)
+	{
+		printf("a is non-zero and b is zero\n");
+	}
+
 	getch();
-	
-//	
-//	
-//	
-//	if (4<3)
-//	printf("%s\n",trueresult);
-//	else
-//	printf("%s\n", falseresult);
-//	
-//printf("%d \n", 4==4);
-//printf("%c \n", 4<3);
-//printf("%d \n", 3<4);
-//printf("%d \n", 4<4);
-//printf("%d \n", 4<=4);
-//printf("%d \n", 4>3);
-//printf("%d \n", 3>4);
-//printf("%d \n", 4>4);
-//printf("%d \n", 4>=4);
-//printf("%d \n", 4!=4);
-//printf("%d \n", 3!=4);
-//	return 0;
 }

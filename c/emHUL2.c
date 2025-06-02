@@ -4,7 +4,7 @@
 *****************************************************************************/
 # include "stdio.h"
 # include "conio.h"
-main()
+int main()
 {
    int sal;
    float bon=0;
@@ -17,4 +17,5 @@ main()
    }
    printf ("\nBonus is %f",bon);
    getch();
+   return 0;
 }

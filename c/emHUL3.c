@@ -4,10 +4,12 @@
 *****************************************************************************/
 # include "stdio.h"
 # include "conio.h"
-main()
+# include "devuts.h"
+
+int main()
 {
    int n;
-   //clrscr();
+   clrscr();
    printf("\nEnter Any No.:");
    scanf ("%d",&n);
    if(n >= 0)
@@ -19,4 +21,5 @@ main()
        printf("\n No. is Negative");
      }
    getch();
+   return 0;
 }
